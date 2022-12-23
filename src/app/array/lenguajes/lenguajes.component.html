@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguajes</title>
+</head>
+<body>
+    <header class="text-center mt-5">
+        <h1 id="titulo" class="fs-1">FRAMEWORK ANGULAR</h1>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="mt-4 row">
+            <div class="col-md-6 offset-3">
+                <input type="text" class="form-control mt-3" #lenguaje>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-md rounded-circle" (click)="addLenguajes(lenguaje.value)" type="button" >AÑADIR</button>
+            </div>
+        </div>
+
+        <div id="lista" class="mt-5">
+        <ul>
+           <div type="disc" *ngFor="let nombre of lenguajes">
+            <li>{{nombre}}</li>
+           </div>
+        </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
+

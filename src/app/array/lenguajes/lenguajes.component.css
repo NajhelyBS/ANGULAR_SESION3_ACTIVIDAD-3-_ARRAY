@@ -1,0 +1,34 @@
+
+#titulo {
+    -webkit-text-stroke: #ff9800 0.5px;
+}
+
+input{
+    height:50px;
+    
+}
+
+button {
+    background-color: #ff9800; 
+    box-shadow: #ffa51e 0 0 7px 3px;
+    color:white; height: 80px; 
+    margin-left: -70px;
+
+}
+
+#lista {
+
+    border-radius: 10px;   
+    height: auto;
+    margin-left: 25em;
+    width: 20em;
+    background: #F2994A;  
+    background: -webkit-linear-gradient(to bottom, #F2C94C, #F2994A); 
+    background: linear-gradient(to bottom, #F2C94C, #F2994A);
+
+}
+
+li {
+    font-size: 20px;
+
+}
